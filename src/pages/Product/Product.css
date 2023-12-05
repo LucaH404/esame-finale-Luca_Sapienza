@@ -1,0 +1,38 @@
+.content-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.details-container{
+    display: flex;
+}
+.carousel-style{
+    width: 50%;
+}
+
+.content-box h1{
+    text-align: center;
+}
+.content-box p{
+    text-align: center;
+}
+.content-box h2{
+    text-align: center;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+.product-image{
+    width: 30%;
+}
+.image-box{
+    display: flex !important;
+    justify-content: center !important;
+}
+:where(.css-dev-only-do-not-override-6j9yrn).ant-carousel .slick-list .slick-slide >div>div{
+    display: flex !important;
+    justify-content: center !important;
+}
